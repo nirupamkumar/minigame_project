@@ -1,7 +1,7 @@
 # minigame_project
 ###### Task for SyncVR
  
-Unity version: 2020.3.18f1
+Unity version: 2020.3.18f1 |
 Render pipeline: HDRP (High Definition Render Pipeline)
  
 ## UI

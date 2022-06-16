@@ -20,7 +20,7 @@ public class PauseMenu : MonoBehaviour
         {
             //Debug.Log("Escape key pressed");
             Cursor.lockState = CursorLockMode.None;
-            Time.timeScale = 0f;
+            //Time.timeScale = 0f;
             pauseMenu.SetActive(true);
         }
     }
@@ -30,7 +30,7 @@ public class PauseMenu : MonoBehaviour
         //Debug.Log("Pause button pressed");
         Cursor.lockState = CursorLockMode.Locked;
         pauseMenu.SetActive(false);
-        Time.timeScale = 1f;
+        //Time.timeScale = 1f;
     }
 
     public void MainMenu()
